@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const editableElements = document.querySelectorAll(".editable");
     const editButton = document.querySelector(".edit__button");
-    const isSMobile = window.matchMedia("(max-width: 375px)").matches;
-    const isMMobile = window.matchMedia("(max-width: 575px)").matches;
     const dowloadBtn = document.getElementById("generate-pdf");
     let editMode = false;
 
